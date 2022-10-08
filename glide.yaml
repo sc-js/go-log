@@ -4,6 +4,6 @@ import:
   subpackages:
   - ssh/terminal
 - package: github.com/smartystreets/goconvey
-  version: ^1.6.2
+  version: ^1.6.3
   subpackages:
   - convey
