@@ -266,6 +266,7 @@ func (l *Logger) Output(depth int, prefix Prefix, data string) error {
 		l.buf.AppendByte('\n')
 	}
 	// Flush buffer to output
+	fmt.Println(string(l.buf.Buffer))
 	_, err := l.out.Write(l.buf.Buffer)
 	return err
 }
